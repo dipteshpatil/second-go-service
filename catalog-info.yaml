@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: second-go-service
+  description: second-go-service
+  annotations: 
+    github.com/project-slug: dipteshpatil/second-go-service
+    backstage.io/github-actions-id: dipteshpatil/second-go-service
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Guest
